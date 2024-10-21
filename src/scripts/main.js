@@ -386,4 +386,6 @@ function generateTable(peop) {
   });
 }
 
-generateTable(people);
+if (table) {
+  generateTable(people);
+}
